@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Logicmoo CogServer</title>
+  <style>
+    body { 
+      font-family: system-ui; 
+      max-width: 800px; 
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    pre { background: #f5f5f5; padding: 1rem; border-radius: 4px; }
+  </style>
+</head>
+<body>
+  <h1>Logicmoo CogServer</h1>
+  <p>This is a CogServer-compatible network interface.</p>
+  
+  <h2>Connection Details</h2>
+  <p>The server provides:</p>
+  <ul>
+    <li>CogServer interface on port 17001</li>
+    <li>REST API on port 3000</li>
+  </ul>
+
+  <h2>Usage</h2>
+  <p>Connect using telnet:</p>
+  <pre>telnet localhost 17001</pre>
+
+  <h3>Available Shells</h3>
+  <ul>
+    <li>Enter <code>scm</code> for Scheme shell</li>
+    <li>Enter <code>pl</code> for Prolog shell</li>
+    <li>Enter <code>sexpr</code> for S-expression shell</li>
+  </ul>
+
+  <p>Note: This is a server application that requires a direct TCP connection. The web interface is for informational purposes only.</p>
+</body>
+</html>
