@@ -16,7 +16,7 @@
   "author": "Logicmoo",
   "license": "AGPL-3.0",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.21.2",
     "chalk": "^4.1.2",
     "net": "^1.0.2",
     "serverless-http": "^3.2.0"
